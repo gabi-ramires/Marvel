@@ -19,14 +19,14 @@ h1 {
     color: red;
     text-shadow: 2px 10px 10px rgb(0, 0, 0);
     padding-top: 10px;
-    position: fixed;
+    position: absolute;
     top: 0;
-
 }
 
+
 #cartao {
-    display: inline-block;
-    width: 25%;
+    display: block;
+    width: 300px;
     text-align: center;
     margin-top: 2%;
     margin-bottom: 20px;
@@ -42,7 +42,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 #foto img {
@@ -50,19 +49,13 @@ h1 {
 }
 
 #infos {
-
     margin: 10px;
     flex-direction: column;
     align-items: center;
     display: flex;
-
-
-
-
 }
 
 #infos p {
-
     display: block;
 }
 
@@ -74,9 +67,16 @@ h1 {
 
 #historias {
     text-align: justify;
-
 }
 
 #infos hr {
-    width: 300px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        flex-direction: column;
+    }
+
 }

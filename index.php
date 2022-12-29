@@ -14,11 +14,11 @@
     <body>
 
         <h1>PERSONAGENS DA MARVEL</h1> 
-
         <main>
             
-        
         </main>
+
+
 
     </body>
 
@@ -32,6 +32,7 @@ require_once('src/App.php');
 for ($n=0; $n < 3; $n++) { 
   
     echo '
+    
     <div id="cartao">
         <div id="nome">
             <p>'.$pessoa[$n]->nome.'</p>
@@ -53,6 +54,7 @@ for ($n=0; $n < 3; $n++) {
             </div>
         </div>
     </div>
+    
 
     ';
 
