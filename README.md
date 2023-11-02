@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido para consumir a API da Marvel e obter informações sobre 3 personagens, incluindo seus nomes, IDs, imagens e as 5 principais histórias em que esses personagens aparecem. Para obter mais detalhes sobre a API da Marvel, você pode consultar a documentação oficial disponível em [developer.marvel.com/docs](https://developer.marvel.com/docs).
 
+## Visualizar 🧑‍💻
+Para visualizar o projeto em ação, você pode acessá-lo diretamente em [gabrielaramires.com.br/marvel](https://gabrielaramires.com.br/marvel/).
+
 ## Tecnologias Utilizadas 🚀
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -41,4 +44,4 @@ Para executar o projeto, siga estas etapas:
 
 Para fazer as requisições à API da Marvel, é necessário gerar um hash MD5, utilizando as chaves pública e privada fornecidas quando você se cadastra na plataforma. Além disso, é necessário incluir um timestamp nas requisições. Para obter informações detalhadas sobre a autenticação e autorização da API da Marvel, consulte a [documentação oficial](https://developer.marvel.com/documentation/authorization).
 
-Para visualizar o projeto em ação, você pode acessá-lo diretamente em [gabrielaramires.com.br/marvel](https://gabrielaramires.com.br/marvel/).
+
